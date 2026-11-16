@@ -1,0 +1,85 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "751ec7a7-a659-4106-b678-11e734f73ef3")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 24.13 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "131e9be2-bfb7-4ef8-98ae-e408145d7c20")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape output)
+		(at 24.13 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ac9fb56-8a6e-400d-b570-36a1288ef75c")
+	)
+	(hierarchical_label "RADIO_BUSY"
+		(shape output)
+		(at 24.13 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b0d124e-18d3-46bf-a89c-0c09e3d760aa")
+	)
+	(hierarchical_label "SPI_SCK"
+		(shape input)
+		(at 24.13 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b77e8f1-c7af-4399-9d78-f046bd6b4ee3")
+	)
+	(hierarchical_label "RADIO_NRESET"
+		(shape input)
+		(at 24.13 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d700344-5c58-4d52-a86b-a45049d34d91")
+	)
+	(hierarchical_label "RADIO_NSS"
+		(shape input)
+		(at 24.13 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb5d8f0d-0229-459f-b06b-1e12708ceee8")
+	)
+	(hierarchical_label "RADIO_DIO1"
+		(shape output)
+		(at 24.13 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccac25fd-d419-4019-b7a8-246f5ceadaab")
+	)
+)

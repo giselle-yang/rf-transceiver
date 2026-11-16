@@ -2,9 +2,405 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 61ff4d6a-eaa8-487a-b880-b7419d41b7ef)
+	(uuid "61ff4d6a-eaa8-487a-b880-b7419d41b7ef")
 	(paper "A4")
+	(title_block
+		(rev "001")
+	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 74.93 97.79) (xy 74.93 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e08952-6bb5-4291-8a74-aaf1906ba30a")
+	)
+	(wire
+		(pts
+			(xy 53.34 97.79) (xy 53.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f281b4b-10c0-4fe4-a9bb-a2cf9c2b3363")
+	)
+	(wire
+		(pts
+			(xy 49.53 97.79) (xy 49.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6766eb3d-f3cc-496c-b3ee-474e3a45459e")
+	)
+	(wire
+		(pts
+			(xy 57.15 97.79) (xy 57.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93843d81-398f-4a54-b2fd-3f6a7c93c384")
+	)
+	(wire
+		(pts
+			(xy 88.9 97.79) (xy 88.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f6bcaf-f3fc-4269-bb48-28a421aea341")
+	)
+	(wire
+		(pts
+			(xy 78.74 97.79) (xy 78.74 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30afaa6-a992-4931-b52f-e62f59c6551b")
+	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 82.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4d3548-6dd4-46d3-a85d-fda55226d4f5")
+	)
+	(sheet
+		(at 24.13 110.49)
+		(size 78.74 85.09)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0b7271db-2a44-4e14-aad8-fe9407104eaf")
+		(property "Sheetname" "radio"
+			(at 24.13 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 24.13 196.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RADIO_NRESET" input
+			(at 88.9 110.49 90)
+			(uuid "c0e6d04a-d267-4162-be7f-81af037a12df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_NSS" input
+			(at 74.93 110.49 90)
+			(uuid "15ab4ab6-13aa-4637-b2b7-5de10cffd5fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 78.74 110.49 90)
+			(uuid "d1a73fd7-fbe9-4b17-8e50-995169e7f224")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 82.55 110.49 90)
+			(uuid "b10d6cd6-da88-4220-9ee9-d8d9dfdcf582")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_BUSY" output
+			(at 49.53 110.49 90)
+			(uuid "9cde1ad2-6952-4bcf-bbad-a22293fd57ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_DIO1" output
+			(at 53.34 110.49 90)
+			(uuid "0ba0aa8f-15d7-44b5-b17c-81569c951df2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 57.15 110.49 90)
+			(uuid "68adddf7-4090-4f14-8041-0abc47a27cb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "sx1262_board"
+				(path "/61ff4d6a-eaa8-487a-b880-b7419d41b7ef"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 110.49)
+		(size 137.16 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4274380e-627b-4f9f-9755-0351abc4a83b")
+		(property "Sheetname" "rf_frontend"
+			(at 146.05 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf_frontend.kicad_sch"
+			(at 146.05 164.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sx1262_board"
+				(path "/61ff4d6a-eaa8-487a-b880-b7419d41b7ef"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 13.97)
+		(size 118.11 92.71)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7f0a8747-2857-4290-ac9f-8ff04bbc629f")
+		(property "Sheetname" "power"
+			(at 165.1 13.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 165.1 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sx1262_board"
+				(path "/61ff4d6a-eaa8-487a-b880-b7419d41b7ef"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 22.86)
+		(size 78.74 74.93)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "de7c4228-7127-4c8f-8299-faf1f767600c")
+		(property "Sheetname" "mcu"
+			(at 24.13 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 24.13 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RADIO_BUSY" input
+			(at 49.53 97.79 270)
+			(uuid "1e099dca-a511-407d-ad89-a6f1a5b76883")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_DIO1" input
+			(at 53.34 97.79 270)
+			(uuid "5925ad06-453c-4f1f-9f42-ab244b2104e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MISO" input
+			(at 57.15 97.79 270)
+			(uuid "932b3475-ca93-4f25-8cff-4413daf4dbce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_NRESET" output
+			(at 88.9 97.79 270)
+			(uuid "a5c825dd-7631-426d-b275-cc4f2218d39b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_NSS" output
+			(at 74.93 97.79 270)
+			(uuid "2d40d53d-e179-4e57-8ac7-234d2a90ea84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MOSI" output
+			(at 78.74 97.79 270)
+			(uuid "fb1b73de-cfad-4c98-9985-9e7b17d22a2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_SCK" output
+			(at 82.55 97.79 270)
+			(uuid "07aa8f96-fc73-4f1a-9013-5b9997bc88df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "sx1262_board"
+				(path "/61ff4d6a-eaa8-487a-b880-b7419d41b7ef"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
