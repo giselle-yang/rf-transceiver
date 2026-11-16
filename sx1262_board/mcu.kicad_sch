@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "c5f95283-cac8-4535-b226-c206296872c1")
+	(uuid "5bff2a2a-3965-41ca-bed3-cf5107407042")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "RADIO_DIO1"

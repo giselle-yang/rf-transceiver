@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "751ec7a7-a659-4106-b678-11e734f73ef3")
+	(uuid "c56e5101-21a0-4b37-afc1-62a9a5b26b59")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "SPI_MOSI"
