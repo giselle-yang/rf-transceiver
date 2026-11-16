@@ -7,3 +7,5 @@ _autosave-*
 ~*
 .venv/
 __pycache__/
+
+.history/
