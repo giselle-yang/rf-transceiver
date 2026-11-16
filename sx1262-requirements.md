@@ -27,12 +27,12 @@
 | | GND / exposed pad | Ground | Ground plane | |
 
 ## Decisions
-- Regulator: DC-DC or LDO? Why:
+- Regulator: DC-DC or LDO? Why: DC-DC because it is more efficient
 - Inductor: value / part / shielded? DC resistance:
-- Clock: crystal or TCXO? Part, frequency, ppm:
+- Clock: TXCO because of the ppm requirement for the sx1262 of +/- 5ppm. Part, frequency, ppm:
 - DIO3 TCXO voltage setting:
-- RF topology: split TX/RX with switch, or direct tie? Why:
-- MCU: ESP32 or STM32? Part:
+- RF topology: split TX/RX with switch, or direct tie? Why: split TX/RX as it is more flexible and gives test points
+- MCU: ESP32 or STM32? Part: ESP32 was chosen due to familiarity, already having the part, and easier to use.
 
 ## Reference design components (copy values, then explain each)
 | Ref | Value | Purpose | Why this value |
