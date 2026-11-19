@@ -10,77 +10,77 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 74.93 97.79) (xy 74.93 110.49)
+			(xy 74.93 63.5) (xy 74.93 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15e08952-6bb5-4291-8a74-aaf1906ba30a")
+		(uuid "038df888-f94e-466e-8b1d-96b6f7d101bd")
 	)
 	(wire
 		(pts
-			(xy 53.34 97.79) (xy 53.34 110.49)
+			(xy 82.55 63.5) (xy 82.55 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f281b4b-10c0-4fe4-a9bb-a2cf9c2b3363")
+		(uuid "a382f303-0a27-4298-a094-81b4e43071e7")
 	)
 	(wire
 		(pts
-			(xy 49.53 97.79) (xy 49.53 110.49)
+			(xy 57.15 63.5) (xy 57.15 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6766eb3d-f3cc-496c-b3ee-474e3a45459e")
+		(uuid "b2cc1460-a285-46db-8362-e9f320df9b1a")
 	)
 	(wire
 		(pts
-			(xy 57.15 97.79) (xy 57.15 110.49)
+			(xy 49.53 63.5) (xy 49.53 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93843d81-398f-4a54-b2fd-3f6a7c93c384")
+		(uuid "b2f559bd-1941-4a41-b290-c19661c807da")
 	)
 	(wire
 		(pts
-			(xy 88.9 97.79) (xy 88.9 110.49)
+			(xy 88.9 63.5) (xy 88.9 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2f6bcaf-f3fc-4269-bb48-28a421aea341")
+		(uuid "d663603f-db06-4421-9122-aff42fc3c179")
 	)
 	(wire
 		(pts
-			(xy 78.74 97.79) (xy 78.74 110.49)
+			(xy 53.34 63.5) (xy 53.34 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c30afaa6-a992-4931-b52f-e62f59c6551b")
+		(uuid "ec2b4d9b-900f-4e72-b8c2-1e2c24d7cb53")
 	)
 	(wire
 		(pts
-			(xy 82.55 97.79) (xy 82.55 110.49)
+			(xy 78.74 63.5) (xy 78.74 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca4d3548-6dd4-46d3-a85d-fda55226d4f5")
+		(uuid "f3f5faf4-9f06-4e97-b775-a0aad89d15e6")
 	)
 	(sheet
 		(at 24.13 110.49)
-		(size 78.74 85.09)
+		(size 78.74 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -95,7 +95,7 @@
 		)
 		(uuid "0b7271db-2a44-4e14-aad8-fe9407104eaf")
 		(property "Sheetname" "radio"
-			(at 24.13 109.7784 0)
+			(at 23.4184 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -106,7 +106,7 @@
 			)
 		)
 		(property "Sheetfile" "radio.kicad_sch"
-			(at 24.13 196.1646 0)
+			(at 103.4546 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -195,8 +195,8 @@
 		)
 	)
 	(sheet
-		(at 146.05 110.49)
-		(size 137.16 53.34)
+		(at 143.51 87.63)
+		(size 92.71 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -211,7 +211,7 @@
 		)
 		(uuid "4274380e-627b-4f9f-9755-0351abc4a83b")
 		(property "Sheetname" "rf_frontend"
-			(at 146.05 109.7784 0)
+			(at 143.51 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -222,7 +222,7 @@
 			)
 		)
 		(property "Sheetfile" "rf_frontend.kicad_sch"
-			(at 146.05 164.4146 0)
+			(at 143.51 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -241,8 +241,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 13.97)
-		(size 118.11 92.71)
+		(at 142.24 24.13)
+		(size 95.25 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -257,7 +257,7 @@
 		)
 		(uuid "7f0a8747-2857-4290-ac9f-8ff04bbc629f")
 		(property "Sheetname" "power"
-			(at 165.1 13.2584 0)
+			(at 142.24 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -268,7 +268,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 165.1 107.2646 0)
+			(at 142.24 70.4346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -287,8 +287,8 @@
 		)
 	)
 	(sheet
-		(at 24.13 22.86)
-		(size 78.74 74.93)
+		(at 24.13 26.67)
+		(size 78.74 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -302,7 +302,7 @@
 		)
 		(uuid "de7c4228-7127-4c8f-8299-faf1f767600c")
 		(property "Sheetname" "mcu"
-			(at 24.13 22.1484 0)
+			(at 24.13 25.9584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -313,7 +313,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 24.13 98.3746 0)
+			(at 24.13 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -324,7 +324,7 @@
 			)
 		)
 		(pin "RADIO_BUSY" input
-			(at 49.53 97.79 270)
+			(at 49.53 63.5 270)
 			(uuid "1e099dca-a511-407d-ad89-a6f1a5b76883")
 			(effects
 				(font
@@ -334,7 +334,7 @@
 			)
 		)
 		(pin "RADIO_DIO1" input
-			(at 53.34 97.79 270)
+			(at 53.34 63.5 270)
 			(uuid "5925ad06-453c-4f1f-9f42-ab244b2104e1")
 			(effects
 				(font
@@ -344,7 +344,7 @@
 			)
 		)
 		(pin "SPI_MISO" input
-			(at 57.15 97.79 270)
+			(at 57.15 63.5 270)
 			(uuid "932b3475-ca93-4f25-8cff-4413daf4dbce")
 			(effects
 				(font
@@ -354,7 +354,7 @@
 			)
 		)
 		(pin "RADIO_NRESET" output
-			(at 88.9 97.79 270)
+			(at 88.9 63.5 270)
 			(uuid "a5c825dd-7631-426d-b275-cc4f2218d39b")
 			(effects
 				(font
@@ -364,7 +364,7 @@
 			)
 		)
 		(pin "RADIO_NSS" output
-			(at 74.93 97.79 270)
+			(at 74.93 63.5 270)
 			(uuid "2d40d53d-e179-4e57-8ac7-234d2a90ea84")
 			(effects
 				(font
@@ -374,7 +374,7 @@
 			)
 		)
 		(pin "SPI_MOSI" output
-			(at 78.74 97.79 270)
+			(at 78.74 63.5 270)
 			(uuid "fb1b73de-cfad-4c98-9985-9e7b17d22a2f")
 			(effects
 				(font
@@ -384,7 +384,7 @@
 			)
 		)
 		(pin "SPI_SCK" output
-			(at 82.55 97.79 270)
+			(at 82.55 63.5 270)
 			(uuid "07aa8f96-fc73-4f1a-9013-5b9997bc88df")
 			(effects
 				(font
